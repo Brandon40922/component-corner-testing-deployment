@@ -1,0 +1,40 @@
+.hero {
+    background-image: url('https://placehold.co/1200x400/1b5e20/1b5e20');
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-content {
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 35px;
+    border-radius: 10px;
+  }
+  
+  .hero h2 {
+    font-size: 42px;
+    margin: 0 0 15px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .hero button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .hero button:hover {
+    opacity: 0.9;
+  }
